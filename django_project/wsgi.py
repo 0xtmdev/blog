@@ -8,6 +8,9 @@ https://docs.djangoproject.com/en/4.1/howto/deployment/wsgi/
 """
 
 import os
+import sys
+sys.path.append('~/code/blog')
+sys.path.append('~/code/blog/django_project')
 
 from django.core.wsgi import get_wsgi_application
 
