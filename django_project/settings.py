@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-
 from pathlib import Path
 
 
@@ -26,7 +25,8 @@ SECRET_KEY = 'django-insecure-#bgeql=9hbwtib(nb*#60jp*xuqzhnt8(k&h=rr!in#ce!zgfx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
+#.herokuapp.com', 'localhost', '127.0.0.1
 
 
 # Application definition
